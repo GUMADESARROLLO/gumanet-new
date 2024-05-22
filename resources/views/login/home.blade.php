@@ -1,4 +1,4 @@
-@extends('template.main')
+@extends('template.login')
 @section('content')   
 <main class="form-signin w-100 m-auto text-center">
       <form>
@@ -28,7 +28,7 @@
         </div>
 
     
-        <a class="btn btn-primary-amj w-100 py-2" href="#"
+        <a class="btn btn-primary-amj w-100 py-2" href="dashboard"
           >Sign in</a
         >
         <p class="mt-5 mb-3 text-body-secondary">&copy; 2024</p>
